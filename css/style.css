@@ -1,1 +1,440 @@
 
+ 
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ 
+/* Set core body defaults */
+body {
+
+
+  line-height: 1.5;
+}
+ 
+
+
+
+input[type="text"] {
+	width: 90px;
+	height: 20px; 
+	margin-left: 30px;
+	border-image: none;
+    border: 3px inset #f2f2f2;
+	outline: 0;
+}
+
+
+.breadcrumb-item{
+	list-style: none;
+	display: inline-block;
+	content: "-";
+}
+.breadcrumb a{
+	font-family: 'arial', sans-serif;
+	font-size: 12px;
+	color: #231f20;
+}
+
+.breadcrumb-item a{
+	font-family: 'arial', sans-serif;
+	font-size: 12px;
+}
+.breadcrumb-item:before{
+	content: "- " ;
+}
+.breadcrumb{
+	list-style: none;
+	display: inline-block;
+}
+
+input[type="number"] {
+	width: 90px;
+	height: 20px; 
+	margin-left: 30px;
+	border-image: none;
+    border: 3px inset #f2f2f2;
+	outline: 0;
+}
+
+section div.content button:active,button:focus{
+	outline: none;
+}
+
+section div.content button{
+	background: radial-gradient(at bottom,#6bcf5e,#44cc32);
+	border-radius: 10px;
+	width: 120px;
+	height: 40px;
+	border-color:#f0ff35;
+	
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+#radio1{
+	margin-left: 30px;
+}
+
+#radio2{
+	margin-left: 20px;
+
+}
+
+#pay{
+	margin-left: 17px;
+	margin-top: 20px;
+}
+
+#max-min2{
+	font-family: 'Verdana', arial;
+	font-size: 10px;
+	font-style: italic;
+	color: #676767;
+	padding-left: 125px;
+
+}
+
+#max-min{
+	font-family: 'Verdana', arial;
+	font-size: 10px;
+	font-style: italic;
+	color: #676767;
+	padding-left: 125px;
+
+
+}
+
+#btn{
+	color: #395306;
+	font-size: 12px;
+	font-family: 'arial', sans-serif;
+	font-weight: bold;
+
+}
+
+select{
+	width: 90px;
+	height: 20px; 
+	margin-left: 28px;
+	outline: 0;
+	border: 3px inset #f2f2f2;
+}
+
+#replenishment{
+	margin-left: 60px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#time{
+	margin-top: 20px;
+	margin-left: 110px;
+
+}
+
+#date{
+	margin-top: 26px;
+	margin-left: 26px;
+}
+
+#summ{
+	margin-top: 20px;
+	margin-left: 100px;
+
+}
+
+h1{
+	margin-bottom: 0;
+	color: #eb5017;
+	margin-block-start:0;
+	padding-top: 15px;
+	padding-left: 100px;
+	font-size: 30px;
+	font-family: 'Arial', sans-serif;
+	font-weight: normal;
+}
+body{
+	background:#ffffff;
+	margin: 0 -15px;
+}
+
+
+header div.header a img{
+	display: block;
+	padding-top: 10px;
+}
+
+header{
+	height: 162px;
+}
+
+header div.header p{
+	margin-top: 30px;
+	text-align: right;
+	padding-right: 20px;
+	color: #eb5017;
+	font-size: 18px;
+	font-family: 'Europe Normal', arial;
+	font-weight: lighter;
+}
+
+header div.header p.num{
+	margin-right: 9px;
+	margin-bottom: 0px;
+}
+
+header div.header p.num2{
+	margin-top: 0px;
+}
+
+header nav{
+	display: block;
+	height: 40px;
+	width: 100%;
+	background:#000;
+	margin-left: 10px;
+	margin-right: 10px;
+	z-index: -1;
+
+
+}
+
+
+header nav ul{
+	list-style: none;
+	height: 40px;
+	
+}
+
+header nav ul li{
+	float: left;
+
+}
+
+header nav ul li:nth-child(1) a{
+	padding-left: 60px;
+	margin-left: -40px;
+}
+
+header nav ul li:nth-child(6) a{
+	border-right: none;
+	padding-right:52px;
+	margin-right: -20px;
+}
+
+header nav ul li a {
+	color: #fff;
+	display: block;
+	height: 40px;
+	padding-right: 40px;
+	padding-left: 35px;
+	text-decoration: none;
+	line-height: 40px;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	border-right: 2px solid #eb5017;
+
+
+} 
+
+header nav ul li a:hover{
+	background-color: #eb5017;
+}
+
+.active{
+	background-color: #eb5017;
+}
+
+section div.content{
+	width: 652px;
+	height: 378px;
+	background:#eaeaea;
+	margin-left: 30px;
+	margin-top: 45px;
+}
+
+
+.slider-range-min2{
+	height: 9px !important;
+	width: 240px;
+	background:#1e1f22 !important;
+	border-color: #fff !important;
+	display: flex;
+	margin-top:138px;
+
+}
+
+#ui-datepicker-div{
+   z-index: 2 !important;
+}
+.ui-slider-range{
+
+	margin-top: 1.5px !important;
+	margin-left: 2px !important;
+	height: 50% !important;
+	background:#84aa31!important;
+
+}
+.ui-slider-handle {
+
+    background: #c1c2c4;
+    border-radius: 0.6em !important;
+    outline: none;
+    margin-top: 2px;
+}
+.ui-widget-content{
+    background: #6b6b6b;
+    border-color: #6b6b6b;
+}
+.ui-slider .ui-slider-handle{
+
+	width: 0.9em !important;
+	height: 0.9em !important
+	
+}
+
+.slider-range-min{
+	
+	height: 9px !important;
+	width: 240px;
+	background:#1e1f22 !important;
+	border-color: #fff !important;
+	display: inline-block;
+	margin-top:123px;
+}
+
+.slider-range-min2 span{
+
+	font-family: 'Verdana', arial;
+	font-size: 10px;
+	font-style: italic;
+	color: #676767;
+	padding-top: 7px;
+
+}
+
+.slider-range-min span{
+	font-family: 'Verdana', arial;
+	font-size: 10px;
+	font-style: italic;
+	color: #676767;
+
+}
+
+#result {
+	position: relative;
+	margin-left: 160px;
+	margin-top: -35px;
+	color: #395306;
+	font-size: 12px;
+	font-family: 'arial', sans-serif;
+	font-weight: bold;
+}
+#result_form{
+	position: relative;
+	margin-left: 10px;
+	margin-top: -37px;
+	font-size: 14px;
+	color: #000000;
+	font-family: 'arial', sans-serif;
+
+}
+
+footer{
+   position: absolute;
+   bottom: 0;
+   width: 994px;
+   margin-left: 10px;
+}
+
+footer div.footer nav{
+	display: block;
+	height: 55px;
+	width: 100%;
+	background:#000;
+	margin-left: 10px;
+	margin-right: 10px;
+	z-index: -1;
+
+}
+
+footer div.footer nav ul {
+	list-style: none;
+	height: 55px;
+}
+
+footer div.footer nav ul li{
+	float: left;
+}
+
+footer div.footer nav ul li a {
+	color: #fff;
+	height: 55px;
+	padding-left: 25px;
+	line-height: 40px;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+
+} 
+
+footer div.footer nav ul li:nth-child(1) a{
+	padding-left: 60px;
+	margin-left: -40px;
+}
+footer div.footer nav ul li:nth-child(6) a{
+	border-right: none;
+	padding-right:52px;
+	margin-right: -20px;
+}
+
+
+.container-fluid{
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+header nav  {
+	width: 994px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 768px)
+{
+
+
+header div.header p.num2{
+	margin-top: 0px;
+	width: 768px;
+
+}
+
+header div.header p.num{
+	margin-top: -70px;
+	width: 768px;
+}
+
+
+}
+
+
